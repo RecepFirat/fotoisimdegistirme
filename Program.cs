@@ -7,7 +7,7 @@ public class Program
     {
         List<string> girdiler=new List<string>();
         string[] dosyalar = Directory.GetFiles("C:\\Users\\rtf34\\Desktop\\fotolar");
-        foreach (string dosya in dosyalar)
+        foreach (string dosya in dosyalar) 
         {
             if (dosya.EndsWith(".jpg") || dosya.EndsWith(".JPG") || dosya.EndsWith(".jpeg") || dosya.EndsWith(".png"))
             {
